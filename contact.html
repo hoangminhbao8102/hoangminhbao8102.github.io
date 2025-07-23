@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bảo Minh - Portfolio</title>
+  <title>Liên hệ - Bảo Minh</title>
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -11,10 +11,10 @@
     <nav>
       <h1 class="logo">Bảo Minh</h1>
       <ul id="nav-links">
-        <li><a href="index.html" class="active">Trang chủ</a></li>
+        <li><a href="index.html">Trang chủ</a></li>
         <li><a href="about.html">Giới thiệu</a></li>
         <li><a href="portfolio.html">Dự án</a></li>
-        <li><a href="contact.html">Liên hệ</a></li>
+        <li><a href="contact.html" class="active">Liên hệ</a></li>
       </ul>
       <div id="menu-toggle" class="hamburger">
         <span></span>
@@ -25,14 +25,17 @@
     </nav>
   </header>
 
-  <section class="hero">
-    <img src="assets/img/avatar.jpg" alt="Avatar" class="avatar">
-    <h2>Tôi là <span class="typing"></span></h2>
-    <a href="portfolio.html" class="btn">Xem Dự Án</a>
-  </section>
-
-  <section class="parallax">
-    Khám phá dự án nổi bật
+  <section class="contact fade-up">
+    <h2>Liên hệ với tôi</h2>
+    <form>
+      <label>Họ tên:</label>
+      <input type="text" placeholder="Nhập tên của bạn">
+      <label>Email:</label>
+      <input type="email" placeholder="Nhập email của bạn">
+      <label>Nội dung:</label>
+      <textarea placeholder="Viết tin nhắn..."></textarea>
+      <button type="submit" class="btn">Gửi</button>
+    </form>
   </section>
 
   <footer>
@@ -41,8 +44,6 @@
 
   <div class="page-transition"></div>
 
-  <!-- Scripts -->
-  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
   <script src="https://unpkg.com/scrollreveal"></script>
   <script src="assets/js/main.js"></script>
 </body>
