@@ -2,7 +2,7 @@
 
 ![Banner](assets/img/project1.png)
 
-> Website Portfolio cá nhân của **Bảo Minh** – Full-Stack Developer, Web & Mobile Enthusiast.
+> Website Portfolio cá nhân của **Bảo Minh** – Full-Stack Developer, Mobile Developer.
 
 ---
 
