@@ -1,6 +1,6 @@
 # 🌐 Bảo Minh - Portfolio Website
 
-![Banner](assets/img/project1.jpg)
+![Banner](assets/img/project1.png)
 
 > Website Portfolio cá nhân của **Bảo Minh** – Full-Stack Developer, Web & Mobile Enthusiast.
 
@@ -30,20 +30,20 @@ Website hỗ trợ **Dark Mode**, **Menu Mobile**, **Parallax Background**, **Ty
 
 ## 📂 Cấu trúc thư mục
 
-hoangminhbao8102.github.io/
-│── index.html
-│── about.html
-│── portfolio.html
-│── contact.html
-│── assets/
-│ ├── css/style.css
-│ ├── js/main.js
-│ └── img/
-│ ├── avatar.jpg
-│ ├── project1.jpg
-│ ├── project2.jpg
-│ └── project3.jpg
-│── README.md
+hoangminhbao8102.github.io/<br>
+│── index.html<br>
+│── about.html<br>
+│── portfolio.html<br>
+│── contact.html<br>
+│── assets/<br>
+│ ├── css/style.css<br>
+│ ├── js/main.js<br>
+│ └── img/<br>
+│ ├── avatar.jpg<br>
+│ ├── project1.jpg<br>
+│ ├── project2.jpg<br>
+│ └── project3.jpg<br>
+│── README.md<br>
 
 ---
 
