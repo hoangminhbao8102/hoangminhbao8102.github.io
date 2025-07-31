@@ -19,15 +19,15 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      # Lấy code từ branch main
+      # 1. Checkout source code
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4   # Phiên bản mới nhất
 
-      # Upload toàn bộ nội dung repo làm artifact (HTML/CSS/JS)
+      # 2. Upload artifact (HTML/CSS/JS thuần)
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v3   # Phiên bản mới nhất
         with:
-          path: ./   # Thư mục gốc repo
+          path: ./   # Deploy toàn bộ nội dung repo
 
   deploy:
     needs: build
@@ -36,7 +36,7 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      # Deploy artifact lên GitHub Pages
+      # 3. Deploy lên GitHub Pages
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v4   # Phiên bản mới nhất
